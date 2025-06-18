@@ -6,9 +6,9 @@ function App() {
 
   return (
     <>
-      {/* <Counter />
-      <ToggeButton /> */}
-      <Form />
+      <Counter />
+      {/* <ToggeButton /> */}
+      {/* <Form /> */}
     </>
   )
 }
