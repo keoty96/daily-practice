@@ -2,6 +2,7 @@ import Counter from "./components/counter";
 import ToggeButton from "./components/toggleButton";
 import Form from "./components/form";
 import Button from "./components/button";
+import TodoList from "./components/todo-list";
 import { useState } from "react";
 
 function App() {
@@ -17,10 +18,11 @@ function App() {
   return (
     <>
     <div style={{backgroundColor: bgColor}}>
-       <Counter />
-      {/* <ToggeButton /> */}
+       {/* <Counter />
+      <ToggeButton />
       <Form />
-      <Button text="Change Background Color" onClick={handleBgColor} />
+      <Button text="Change Background Color" onClick={handleBgColor} /> */}
+      <TodoList />
     </div>
     </>
   )
